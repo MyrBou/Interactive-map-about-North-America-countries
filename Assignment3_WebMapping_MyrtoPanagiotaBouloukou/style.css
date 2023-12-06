@@ -1,0 +1,134 @@
+h1{
+    margin-left:10%;
+    position:relative;
+    text-align:center;
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:blueviolet;
+}
+
+body {
+    text-anchor:middle;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0.5em;
+    background-image: linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.65)), url('https://www.andbeyond.com/wp-content/uploads/sites/5/Lama-and-Machu-Picchu-in-Peru-in-South-America.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.footer{
+    position:absolute;
+    bottom:0;
+    width:90%;
+    height:60px;   
+    text-align:right;
+    font-size:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.map{
+    position:fixed;
+    top:-200px;
+    left:-40px;
+}
+
+.map path {
+    fill:gray;
+    stroke:whitesmoke;
+    stroke-width:0.01cm;
+    fill-opacity:0.9;
+}
+
+.map #Argentina:hover{
+    fill:#CAB6FC;
+    cursor:pointer;
+    transition:0.6s;
+    fill-opacity: 0.9;
+}
+
+.map #Brazil:hover{
+    fill:#FF00FF;
+    cursor:pointer;
+    transition:0.6s;
+    fill-opacity: 0.9;
+}
+
+.map #Colombia:hover{
+    fill:#800080;
+    cursor:pointer;
+    transition:0.6s;
+    fill-opacity: 0.9;
+}
+
+.map #Bolivia:hover{
+    fill:#000080;
+    cursor:pointer;
+    transition:0.6s;
+    fill-opacity: 0.9;
+}
+
+.map #Suriname:hover{
+    fill:#e387dd;
+    cursor:pointer;
+    transition:0.6s;
+    fill-opacity: 0.9;
+}
+
+.map #Ecuador:hover{
+    fill:#FFFACD;
+    cursor:pointer;
+    transition:0.6s;
+    fill-opacity: 0.9;
+}
+
+.map #Chile:hover{
+    fill:#CD5C5C;
+    cursor:pointer;
+    transition:0.6s;
+    fill-opacity: 0.9;
+}
+
+.map #Peru:hover{
+    fill:#32CD32;
+    cursor:pointer;
+    transition:0.6s;
+    fill-opacity: 0.9;
+}
+
+.map #Paraguay:hover{
+    fill:#006400;
+    cursor:pointer;
+    transition:0.6s;
+    fill-opacity: 0.9;
+}
+
+.map #Uruguay:hover{
+    fill:#87CEEB;
+    cursor:pointer;
+    transition:0.6s;
+    fill-opacity: 0.9;
+}
+
+.map #Venezuela:hover{
+    fill: #ddbc15;
+    cursor:pointer;
+    transition:0.6s;
+    fill-opacity: 0.9;
+}
+
+.map #Guyana:hover{
+    fill:#8B0000;
+    cursor:pointer;
+    transition:0.6s;
+    fill-opacity: 0.9;
+}
+
+
+.map text{
+    text-anchor:middle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+
